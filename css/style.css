@@ -150,7 +150,7 @@ section {
 }
 
 .logo-desing {
-  width: 18%;
+  width: 12%;
   height: auto;
 }
 
@@ -430,17 +430,17 @@ section {
   opacity: 0.25;
 }
 .owl-carousel .owl-prev {
-  right: 20px;
+  right: -20px;
   
 }
 .owl-carousel .owl-next {
-  left: 20px;
+  left: -20px;
 }
 .owl-theme .owl-nav [class*=owl-] {
   color: #ffffff;
   font-size: 26px;
-  background: #000000;
-  border-radius: 3px;
+  background: #00000061;
+  border-radius: 26px;
 }
 .owl-carousel .prev-carousel:hover {
   background-position: 0px -53px;
@@ -958,6 +958,9 @@ input.whats-input[type=text]:focus {
 }
 
 @media (max-width: 768px) {
+  .logo-desing {
+    width: 18%;
+  }
   .header {
     padding: 1rem;
   }
