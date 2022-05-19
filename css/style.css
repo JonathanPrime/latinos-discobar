@@ -150,7 +150,7 @@ section {
 }
 
 .logo-desing {
-  width: 15%;
+  width: 18%;
   height: auto;
 }
 
@@ -366,7 +366,7 @@ section {
 .menu__detail, .menu__preci {
   font-size: 2rem !important;
   color:  var(--white) !important;
-  margin-top: 1rem !important;
+  /* margin-top: 1rem !important; */
   padding-bottom: 2rem;
 }
 
@@ -959,10 +959,10 @@ input.whats-input[type=text]:focus {
 
 @media (max-width: 768px) {
   .header {
-    padding: 2rem;
+    padding: 1rem;
   }
   .header.active {
-    padding: 2rem;
+    padding: 1rem;
   }
   .header #menu-btn {
     display: inline-block;
